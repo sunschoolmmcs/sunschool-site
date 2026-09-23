@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="774" height="263" viewBox="0 0 774 263">
+  <title>Последовательность прохождения курсов</title>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 Z" fill="#222" />
+    </marker>
+  </defs>
+
+  <g fill="none" stroke="#222" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)">
+    <path d="M 242 60 V 100" />
+    <path d="M 242 161 V 181 H 124 V 199" />
+    <path d="M 242 181 H 360 V 199" />
+    <path d="M 224 221 H 257" />
+    <path d="M 260 239 H 227" />
+    <path d="M 650 60 V 100" />
+    <path d="M 650 161 V 199" />
+  </g>
+
+  <g stroke="#222" stroke-width="2.2">
+    <rect x="142" y="1" width="200" height="59" rx="9" fill="#fff4cc" />
+    <rect x="142" y="102" width="200" height="59" rx="9" fill="#fff4cc" />
+    <rect x="24" y="201" width="200" height="60" rx="9" fill="#fff4cc" />
+    <rect x="260" y="201" width="200" height="60" rx="9" fill="#fff4cc" />
+    <rect x="550" y="1" width="200" height="59" rx="9" fill="#ddffe1" />
+    <rect x="550" y="102" width="200" height="59" rx="9" fill="#ddffe1" />
+    <rect x="550" y="201" width="200" height="60" rx="9" fill="#ddffe1" />
+  </g>
+
+  <g fill="#222" font-family="Arial, Helvetica, sans-serif" font-size="15" text-anchor="middle">
+    <text x="242" y="19">
+      <tspan x="242">Пользователь</tspan>
+      <tspan x="242" dy="17">компьютера плюс</tspan>
+      <tspan x="242" dy="17">(IT1)</tspan>
+    </text>
+    <text x="242" y="119">
+      <tspan x="242">Пользователь</tspan>
+      <tspan x="242" dy="17">прикладных программ</tspan>
+      <tspan x="242" dy="17">(IT2)</tspan>
+    </text>
+    <text x="124" y="224">
+      <tspan x="124">Веб-разработчик</tspan>
+      <tspan x="124" dy="18">(Web)</tspan>
+    </text>
+    <text x="360" y="225">
+      <tspan x="360">3D-моделирование и</tspan>
+      <tspan x="360" dy="18">анимация (3D)</tspan>
+    </text>
+    <text x="650" y="28">
+      <tspan x="650">Программирование 1</tspan>
+      <tspan x="650" dy="18">(P1)</tspan>
+    </text>
+    <text x="650" y="129">
+      <tspan x="650">Программирование 2</tspan>
+      <tspan x="650" dy="18">(P2)</tspan>
+    </text>
+    <text x="650" y="228">
+      <tspan x="650">Программирование 3</tspan>
+      <tspan x="650" dy="18">(P3)</tspan>
+    </text>
+  </g>
+</svg>

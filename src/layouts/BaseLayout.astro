@@ -1,0 +1,35 @@
+---
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import '../styles/global.css';
+
+interface Props {
+  frontmatter: {
+    title: string;
+    description: string;
+  };
+}
+
+const { title, description } = Astro.props.frontmatter;
+const pageTitle = title === 'Воскресная компьютерная школа'
+  ? title
+  : `${title} — Воскресная компьютерная школа`;
+---
+
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <title>{pageTitle}</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#content">Перейти к содержимому</a>
+    <Header />
+    <main id="content" class="site-main container">
+      <slot />
+    </main>
+    <Footer />
+  </body>
+</html>
